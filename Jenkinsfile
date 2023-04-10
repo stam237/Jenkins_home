@@ -2,6 +2,12 @@ pipeline {
     agent any
 
     stages {
+        stage('Clone') {
+            steps {
+                echo 'Revolutech Cloning..'
+            }
+        }
+            stages {
         stage('Build') {
             steps {
                 echo 'Revolutech Building..'
