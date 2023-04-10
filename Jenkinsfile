@@ -7,8 +7,7 @@ pipeline {
                 echo 'Revolutech Cloning..'
             }
         }
-            stages {
-        stage('Build') {
+               stage('Build') {
             steps {
                 echo 'Revolutech Building..'
             }
